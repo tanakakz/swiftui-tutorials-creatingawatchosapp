@@ -44,6 +44,7 @@
 		36120EAE23E5B35000D5D965 /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7394889229F292E00C47603 /* umbagog.jpg */; };
 		36120EAF23E5B35000D5D965 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B73948A2229F3E2200C47603 /* charleyrivers.jpg */; };
 		36120EB123E5B54400D5D965 /* WatchLandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36120EB023E5B54400D5D965 /* WatchLandmarkDetail.swift */; };
+		36120EB323E6983200D5D965 /* WatchMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36120EB223E6983200D5D965 /* WatchMapView.swift */; };
 		B7310DD1229F6839001079B9 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD0229F6839001079B9 /* HexagonParameters.swift */; };
 		B7310DD3229F6CA9001079B9 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD2229F6CA9001079B9 /* Badge.swift */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
@@ -155,6 +156,7 @@
 		36120E8A23E57D7C00D5D965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36120E8B23E57D7C00D5D965 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		36120EB023E5B54400D5D965 /* WatchLandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarkDetail.swift; sourceTree = "<group>"; };
+		36120EB223E6983200D5D965 /* WatchMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMapView.swift; sourceTree = "<group>"; };
 		5A5FF1C2C19ADFFFAB5D9B14 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		B7310DD0229F6839001079B9 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		B7310DD2229F6CA9001079B9 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
@@ -253,16 +255,17 @@
 		36120E7A23E57D7C00D5D965 /* WatchLandmarks Extension */ = {
 			isa = PBXGroup;
 			children = (
+				36120E8B23E57D7C00D5D965 /* PushNotificationPayload.apns */,
+				36120E8A23E57D7C00D5D965 /* Info.plist */,
 				36120E7B23E57D7C00D5D965 /* ContentView.swift */,
-				36120E7D23E57D7C00D5D965 /* HostingController.swift */,
 				36120E7F23E57D7C00D5D965 /* ExtensionDelegate.swift */,
+				36120E7D23E57D7C00D5D965 /* HostingController.swift */,
 				36120E8123E57D7C00D5D965 /* NotificationController.swift */,
 				36120E8323E57D7C00D5D965 /* NotificationView.swift */,
-				36120E8523E57D7C00D5D965 /* Assets.xcassets */,
-				36120E8A23E57D7C00D5D965 /* Info.plist */,
-				36120E8B23E57D7C00D5D965 /* PushNotificationPayload.apns */,
-				36120E8723E57D7C00D5D965 /* Preview Content */,
 				36120EB023E5B54400D5D965 /* WatchLandmarkDetail.swift */,
+				36120EB223E6983200D5D965 /* WatchMapView.swift */,
+				36120E8523E57D7C00D5D965 /* Assets.xcassets */,
+				36120E8723E57D7C00D5D965 /* Preview Content */,
 			);
 			path = "WatchLandmarks Extension";
 			sourceTree = "<group>";
@@ -599,6 +602,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36120E9823E5B1B800D5D965 /* Landmark.swift in Sources */,
+				36120EB323E6983200D5D965 /* WatchMapView.swift in Sources */,
 				36120E9B23E5B1B800D5D965 /* Profile.swift in Sources */,
 				36120E7E23E57D7C00D5D965 /* HostingController.swift in Sources */,
 				36120E9923E5B1B800D5D965 /* UserData.swift in Sources */,
